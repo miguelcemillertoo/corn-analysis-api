@@ -1,0 +1,222 @@
+[
+  {
+    "disease": "Aspergillus Ear Rot",
+    "scientificName": "Aspergillus flavus",
+    "descriptions": [
+      "Ang sakit na ito ay nakakaapekto sa dami at kalidad ng ani.",
+      "Mabilis na kumakalat ang sakit kapag mainit at maalinsangang ang maisan.",
+      "Ikinakalat din ng mga peste ang sakit na ito.",
+      "Nagkakaroon ng aspergillus ear rot ang mais kung ito ay nakatabi sa imbakan na may mataas na moisture level."
+    ],
+    "damages": [
+      "Nabubulok at nawawala ang kulay ng butil.",
+      "Nagkakaroon ng amag o pulbos sa ani.",
+      "Ang pananim ay nagiging maliit."
+    ],
+    "controls": [
+      "Maayos na irigasyon at paglagay ng fertilizer o pataba.",
+      "Alamin kung paano makokontrol ang mga pesteng nakakapagkalat ng sakit.",
+      "Gumamit ng variety ng pananim na kayang labanan ang Aspergillus ear rot."
+    ],
+    "images": [
+      "/images/diseases/aspergillus-ear-rot/1.jpg",
+      "/images/diseases/aspergillus-ear-rot/2.jpg",
+      "/images/diseases/aspergillus-ear-rot/3.jpg",
+      "/images/diseases/aspergillus-ear-rot/4.jpg",
+      "/images/diseases/aspergillus-ear-rot/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Bacterial Stalk Rot",
+    "scientificName": "Erwinia chrysanthemi pv. Zeae",
+    "descriptions": [
+      "Isa ito sa mga pinaka-invasive na sakit sa mais kasunod ng ibang sakit tulad ng downy mildew at leaf blight.",
+      "Ang impeksyon ng sakit na ito ay maaaring magsisimula sa pinakataas na bahagi ng tanim at papunta sa ilalim o kaya naman ay sa baliktad na paraan."
+    ],
+    "damages": [
+      "Ang dulo ng pinakamataas na dahon ay nalalanta. Ang base naman ng tanim ay nabubulok.",
+      "Ang tangkay ng mais na may sakit ay kadalasang baliko. Nalalanta at nabubulok din ito.",
+      "Mabilis na kumakalat ang pagkabulok sa pananim na maaaring ikamatay ng pananim.",
+      "Ang infected na tanim ay may mabahong amoy."
+    ],
+    "controls": [
+      "Maglagay ng tamang dami ng Nitrogen o nitroheno at Potassium o potasa.",
+      "Magandang magsagawa ng crop rotation.",
+      "Tanggalin ang mga damo at panatilihing malinis ang maisan.",
+      "Gumamit ng variety ng pananim na kayang labanan ang stalk rot."
+    ],
+    "images": [
+      "/images/diseases/bacterial-stalk-rot/1.jpg",
+      "/images/diseases/bacterial-stalk-rot/2.jpg",
+      "/images/diseases/bacterial-stalk-rot/3.jpg",
+      "/images/diseases/bacterial-stalk-rot/4.jpg",
+      "/images/diseases/bacterial-stalk-rot/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Banded Leaf and Sheath Blight",
+    "scientificName": "Rhizoctonia solani",
+    "descriptions": [
+      "Ang sakit na ito ay naipapasa sa bagong tanim kung ang lupa ay nahawahan ng sakit o kung may mga natirang bahagi ng tanim sa lupa na may sakit.",
+      "Naaapektuhan nito ang dami ng ani kung malala ang epekto nito sa pananim.",
+      "Ang sintomas ay mas mabilis makita sa mga dahon na mas malapit sa lupa.",
+      "Mas mabilis kumalat ang sakit kapag mataas ang temperatura o maalinsangan tuwing basa ang paligid.",
+      "Kadalasan itong nagsisimula bago ang flowering stage o bago magkaroon ng tassel at bunga."
+    ],
+    "damages": [
+      "Ang pinsala sa pananim ay mas nakikita sa dahon kaysa sheat o tangkay sa pagitan ng mga dahon.",
+      "May mahahabang sugat sa dahon.",
+      "Ang sugat ay nagsisimula na maliit at malalila o kayumanggi ang kulay. Patuloy itong lalaki sa akmang panahon.",
+      "Ang dahon na may sakit ay manipis at mala-papel.",
+      "Maaaring maobserbahan ang sakit simula sa base patungo sa itaas na bahagi ng sheath."
+    ],
+    "controls": ["Magandang magsagawa ng crop rotation."],
+    "images": [
+      "/images/diseases/banded-leaf-and-sheath-blight/1.jpg",
+      "/images/diseases/banded-leaf-and-sheath-blight/2.jpg",
+      "/images/diseases/banded-leaf-and-sheath-blight/3.jpg",
+      "/images/diseases/banded-leaf-and-sheath-blight/4.jpg",
+      "/images/diseases/banded-leaf-and-sheath-blight/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Common Corn Rust",
+    "scientificName": "Puccinia sorghi",
+    "descriptions": [
+      "Naaapektuhan nito ang kalidad ng ani.",
+      "Ang sakit ay nabubuo sa maalinsangan na maisan.",
+      "Nakikita ang sakit sa dahon ng mais.",
+      "Kumakalat ito sa pamamagitan ng hangin o butong may sakit."
+    ],
+    "damages": [
+      "Nagkakaroon ng maliliit na kalawang sa dahon.",
+      "Nakikita ang kalawang sa magkabilang bahagi ng dahon.",
+      "Ang ani ay may kaunting moisture."
+    ],
+    "controls": [
+      "Gumamit ng foliar sa fungicide.",
+      "Gumamit ng variety ng pananim na kayang labanan ang common corn rust."
+    ],
+    "images": [
+      "/images/diseases/common-corn-rust/1.jpg",
+      "/images/diseases/common-corn-rust/2.jpg",
+      "/images/diseases/common-corn-rust/3.jpg",
+      "/images/diseases/common-corn-rust/4.jpg",
+      "/images/diseases/common-corn-rust/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Common Smut",
+    "scientificName": "Ustilago maydis",
+    "descriptions": [
+      "Ang sakit na common smut ay nabubuo sa maisan na may maraming nitroheno o Nitrogen at organic compounds.",
+      "Mabilis maapektuhan ng sakit ang mga maliliit na tanim.",
+      "Madalas nagpapatuloy ang sakit mula sa sugat or sira sa tanim na dulot ng kagat ng insekto, bugso ng buhangin o cultivation practices."
+    ],
+    "damages": [
+      "Nakikita ang pinsala ng sakit sa bungang mais, tangkay, dahon at tassel.",
+      "Makakakita ng pamumukol na maihahalintulad sa tumor.",
+      "Sa simula, ang bukol ay may makintab na unahan at nagkukulay berde o puti bago mangitim ang kulay nito sa paggulang ng tanim."
+    ],
+    "controls": [
+      "Ayusin ang paglalagay ng pataba lalo na kung ito ay nitrogen fertilizer.",
+      "Iwasan ang mga gawain na maaaring makasira ng pananim.",
+      "Kontrolin ang peste.",
+      "Gumamit ng variety ng pananim na kayang labanan ang common smut."
+    ],
+    "images": [
+      "/images/diseases/common-smut/1.jpg",
+      "/images/diseases/common-smut/2.jpg",
+      "/images/diseases/common-smut/3.jpg",
+      "/images/diseases/common-smut/4.jpg",
+      "/images/diseases/common-smut/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Gray Leaf Spot",
+    "scientificName": "Cercospora zeae-maydis",
+    "descriptions": [
+      "Nagsisimula ang sakit habang at pagkatapos ng pagtubo ng buhok ng mais.",
+      "Ang sakit ay nabubuo sa mga lugar na maalinsangan at mainit.",
+      "Ito ay nakakapadulot ng malaking kabawasan sa ani."
+    ],
+    "damages": [
+      "Ang mga sugat ay maliliit na batik-batik at nagiging malalaking parihabang kulay kayumanggi at gray sa pagtagal.",
+      "Ang dahon ay nagmumukang sunog o lanta kung malala ang sitwasyon.",
+      "Ang pagkasunog/ o pagkalanta ay nagdudulot ng pagkamatay ng dahon. Naaapektuhan nito ang photosynthesis ng pananim."
+    ],
+    "controls": [
+      "Mabungkal nang malalim upang matanggal ang natirang sa maisan sa nakaraang anihan.",
+      "Magsagawa ng crop rotation.",
+      "Iwasang pabahain ang maisan.",
+      "Maglagay ng fungicide sa tamang panahon at oras.",
+      "Gumamit ng variety ng pananim na kayang labanan ang gray leaf spot."
+    ],
+    "images": [
+      "/images/diseases/gray-leaf-spot/1.jpg",
+      "/images/diseases/gray-leaf-spot/2.jpg",
+      "/images/diseases/gray-leaf-spot/3.jpg",
+      "/images/diseases/gray-leaf-spot/4.jpg",
+      "/images/diseases/gray-leaf-spot/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Leaf Blight",
+    "scientificName": "Helminthosporium maydis, Bipolaris maydis",
+    "descriptions": [
+      "Ang sakit na ito ay nakakapinsala sa buong tanim at kayang maapektuhan ang ibang pananim.",
+      "Isa itong fungal disease na kumakalat sa mga lugar na maalinsangan.",
+      "Ito ay nakakapadulot ng malaking kabawasan sa ani."
+    ],
+    "damages": [
+      "Ang mga sugat sa dahon ay parihaba na may sukat 2-3 sentimetro.",
+      "Sa paglala ng sugat, maaari itong sumama sa ibang sugat at magdulot ng mas malalang pinsala sa dahon."
+    ],
+    "controls": [
+      "Tanggalin sa maisan ang mga natirang bahagi ng pananim na may sakit pagkatapos ng ani.",
+      "Lagyan ng gamot ang buto bago itanim.",
+      "Gumamit ng variety ng pananim na kayang labanan ang leaf blight."
+    ],
+    "images": [
+      "/images/diseases/leaf-blight/1.jpg",
+      "/images/diseases/leaf-blight/2.jpg",
+      "/images/diseases/leaf-blight/3.jpg",
+      "/images/diseases/leaf-blight/4.jpg",
+      "/images/diseases/leaf-blight/5.jpg"
+    ]
+  },
+
+  {
+    "disease": "Philippine Corn Downey Mildew",
+    "scientificName": "Peronosclerospora philippinensis",
+    "descriptions": [
+      "Madalas itong nakikita sa mga bahang maisan.",
+      "Mas mabilis dapuan ng sakit ang mga binhi.",
+      "Ang impeksyon ay naikakalat sa pamamagitan ng hangin at nabubuo nang tuluyan kapag maalinsangan."
+    ],
+    "damages": [
+      "Nagkakaroon ng dilaw o puting mga guhit simula sa dulo ng dahon patungong itaas.",
+      "Nawawala ang pagkaberde ng dahon.",
+      "Sa panahon ng seedling stage, nagiging bansot ang pananim."
+    ],
+    "controls": [
+      "Ayusin ang pagpapatubig.",
+      "Maglagay ng tamang dami ng nitroheno o Nitrogen dahil tumataas ang tsansang magkaroon ng downey mildew ang pananim kapag marami ang Nitrogen.",
+      "Lagyan ng fungicide ang mga buto.",
+      "Gumamit ng variety ng pananim na kayang labanan ang downy mildew."
+    ],
+    "images": [
+      "/images/diseases/philippine-corn-downey-mildew/1.jpg",
+      "/images/diseases/philippine-corn-downey-mildew/2.jpg",
+      "/images/diseases/philippine-corn-downey-mildew/3.jpg",
+      "/images/diseases/philippine-corn-downey-mildew/4.jpg",
+      "/images/diseases/philippine-corn-downey-mildew/5.jpg"
+    ]
+  }
+]

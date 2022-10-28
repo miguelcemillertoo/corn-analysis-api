@@ -1,0 +1,466 @@
+[
+  {
+    "pest": "Asiatic Corn Borer",
+    "scientificName": "Ostrinia furnacalis Guenee",
+    "descriptions": [
+      "Ang ulo nito ay kulay itim o kayumanggi.",
+      "May malarosas na katawan at may spots na maitim na may pagkabilog."
+    ],
+    "lifeCycle": {
+      "Itlog": "3-4 araw",
+      "Uod": "17.5 araw",
+      "Kukon": "7-9 araw",
+      "Magulang": "4-10 araw"
+    },
+    "damages": [
+      "Ang mga maliliit na uod ay kumakain ng mga dahon na nagdudulot ng maliliit na butas dito. Ang malalaki naman ay gumagawa ng mas malalaking butas.",
+      "Ang paglusob ng insekto ay nagsisimula apat na linggo pagkatapos ng pagtatanim. Tumatagal ang insekto hanggang sa pag-aani.",
+      "Sa pag-usbong ng tassel, ang mataas na populasyon ng uod ay nadudulot ng pagkasira ng mga tassel.",
+      "Ang mga malalaking uod ay nagdudulot ng pinakamatinding pagkasira sa tanim dahil kinakain nila ang buhok ng mais at pumapasok sa loob ng ani.",
+      "Pinakamalaki ang bawas sa ani kapag ang pagkasira ay nasa punto ng reproductive stage.",
+      "Ang malalaking uod ay pumapasok sa stem o sanga ng tanim, tangkay at buto ng mais. Bago maging kukon, ito ay kumakain sa tangkay ng tanim."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Detasseling - tanggalin ang tassel ng 75% ng pananim na mais bago mahulog ang pollen. Sa kada apat na hanay ng mais, tanggalan ng tassel ang tatlong hanay.",
+          "Synchronous planting - Magtanim kasabay ng ibang katabing nagtatanim. ",
+          "Sanitation - gupitin at sunugin ang mga straw kung nalusob ito ng insekto. Sunugin o ibaon sa lupa ang mga natanggal na tassel o kaya naman ay ipakain ito sa mga hayop.",
+          "Gamitin ang Ipomoea triloba bilang panggilid sa taniman ng mais dahil ito ay nakakabawas ng pinsala ng peste."
+        ]
+      },
+      {
+        "method": "Biological Control",
+        "process": [
+          "Magpakawala ng 50-70 cards ng Trichogramma evanescens 25-30 na araw pagkatapos ng pagtatanim. Ulitin ito pagkatapos ng isang linggo.",
+          "Magpakawala ng earwig 25-32-39 na araw pagkatapos ng pagtatanim sa rate na 1 earwig/m2 para sa green corn. Kung ang tanim ay yellow corn, gawin ito 32-39 na araw pagkatapos ng pagtatanim at mag-detassel sa 46 na araw pagkatapos ng pagtatanim."
+        ]
+      },
+      {
+        "method": "Varietal Resistance",
+        "process": ["Magtanim ng Bt corn hybrids."]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa itlog: magpakawala ng egg parasitoids tulad ng Trichogramma sp.",
+          "Para sa uod: Magpakawala ng earwig tulad ng Euborella annulata",
+          "Para sa magulang: Gumamit ng panghuli ng moth tulad ng ilaw o pheromone upang malaman kung gaano karami ang magugulang na peste."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/asiatic-corn-borer/1.jpg",
+      "/images/pests/asiatic-corn-borer/2.jpg",
+      "/images/pests/asiatic-corn-borer/3.png",
+      "/images/pests/asiatic-corn-borer/4.jpg",
+      "/images/pests/asiatic-corn-borer/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Black Armyworm",
+    "scientificName": "Spodoptera exempta",
+    "descriptions": [
+      "Ang likod nito ay may kulay na light yellow sa gitna at may dilaw naman sa gilid ng katawan.",
+      "Ang malalaking uod ay madalas na kulay itim."
+    ],
+    "lifeCycle": {
+      "Itlog": "2-3 araw",
+      "Uod": "17 araw (babae); 13 araw (lalaki)",
+      "Kukon": "20-30 araw"
+    },
+    "damages": [
+      "Ang uod ay gumagawa ng pahabang butas sa dahon at iniiwan lamang ang gitnang parte ng dahon.",
+      "Kung marami ang peste o Harabas, maaaring sirain nito ang lahat ng maliit at bagong pananim. Maaaring mawalan din ng mga dahon ang buong maisan.",
+      "Ang pesteng Harabas ay nakakapagdulot ng maliit na mais at butil ng mais."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Magbungkal ng maisan upang matanggal ang mga damo na maaaring pagbahayan ng peste o Harabas.",
+          "Magbunot ng damo."
+        ]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa uod: Ang mga bibe ay nakakatulong sa pagtanggal ng uod. Ang mga tachinid flies tulad ng Nemosturimia rufopicta at parasitic wasps tulad ng braconid wasps ay mga insektong nakakatulong sa pamamagitan ng pag-itlog sa katawan ng uod.",
+          "Para sa magulang: Gumamit ng panghuli gamit ang pheromones."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/black-armyworm/1.jpg",
+      "/images/pests/black-armyworm/2.jpg",
+      "/images/pests/black-armyworm/3.jpg",
+      "/images/pests/black-armyworm/4.jpg",
+      "/images/pests/black-armyworm/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Common Cutworm",
+    "scientificName": "Spodoptera litura Fab.",
+    "descriptions": [
+      "Ang malilit at batang uod ay may pagkaberde na may itim at may sukat na ⅓ simula sa ulo nito.",
+      "Ang malalaking uod naman ay kulay dark green na may natitingkad na stripes"
+    ],
+    "lifeCycle": {
+      "Itlog": "3 araw",
+      "Uod": "20 araw",
+      "Kukon": "8-11 araw",
+      "Magulang": "5-7 araw"
+    },
+    "damages": [
+      "Pinuputol ng maliliit na uod ang bahagi ng binhing mais sa ilalim ng lupa o malapit dito.",
+      "Gumagawa ng maliliit na butas ang peste sa mga dahon ng binhi at tinatanggal ang ilang parte ng gilid ng dahon.",
+      "Ang malalaking uod naman ay kinakain ang buong tissue ng dahon na malapit sa gitna ng dahon at tutungo sa gilid ng dahon hanggang maubos ang kalahati ng dahon."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Magbungkal ng maisan upang matanggal ang masusukal na damong maaaring pamahayan ng peste.",
+          "I-monitor ang mga lumilipad na gamu-gamo.",
+          "Tanggalin ang ibang pananim 9 na araw bago ang pagtatanim ng mais upang mabawasan ang pagkabuhay ng mga uod.",
+          "Nakakabawas din ng peste ang mga natural predators tulad ng parasite at ibon na kumakain ng cutworm.",
+          "Bawasan ang pag-spray laban sa ibang peste kung hindi kinakailangan.",
+          "Ang pagpili ng maisan, pag-alam ng kasaysayan ng maisan at pagkontrol ng damo ay mahahalagang pamamaraan upang mabawasan ang pinsala ng cutworms. Ang maisang nagkaroon ng maraming damo o weeds ay maaaring magkaroon ng mas malalang problema sa pesteng cutworm sa susunod na pagtatanim.",
+          "Magandang magsagawa ng crop rotation."
+        ]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa itlog: Gumamit ng itlog ng parasitoids tulad ng braconic wasp.",
+          "Para sa magulang: Gumamit ng pheromone traps."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/common-cutworm/1.jpg",
+      "/images/pests/common-cutworm/2.jpg",
+      "/images/pests/common-cutworm/3.jpg",
+      "/images/pests/common-cutworm/4.jpg",
+      "/images/pests/common-cutworm/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Corn Aphids",
+    "scientificName": "Rhopalosiphum maidis",
+    "descriptions": [
+      "Ang mga bata o nimpa at mga magulang na peste ay malilit na hugis peras. Ang mga ito ay kulay berde.",
+      "Ang magulang na peste ay may pakpak. Ito ay may habang 1.3 mm at lapad na 0.5 mm. Nakakapagparami ito sa loob ng 11 na araw kahit walang magulang na lalaki."
+    ],
+    "lifeCycle": {
+      "Nimpa": "9 araw",
+      "Magulang": "4-12 araw"
+    },
+    "damages": [
+      "Nagiging bansot ang pananim dahil tinatanggal ng peste ang katas ng halaman.",
+      "Nagiging maagiw o maitim ang dahon dulot ng fungal infections dahil sa mga honeydew na nakakaakit ng langgam.",
+      "Nag-iiwan ng mapula o madilaw na dahon dahil sa pagkawala ng nutrient at stress ang pagdagsa ng peste. Maaaring mamatay ang pananim dito.",
+      "Kinakain nito ang mga bagong dahon at tinatanggal ang nutrients at tubig ng tanim.",
+      "Sa pagdami ng peste, umiitim ang dahon at tassel.",
+      "Ang tassel ay maaaring maging madikit na nagdudulot ng hindi magandang polinasyon.",
+      "Ang corn aphids ay nagdadala rin ng maize dwarf mosaic virus at barley yellow dwarf virus."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Obserbahan ang maisan tatlo hanggang dalawang linggo bago magsimulang tumubo ang tassel. Pag-isipang gamutin ang pananim kung makakakita ng colonies of 30-100 CLS sa mga bagong dahon lalo na kung ang mais ay may hindi akmang moisture at kaunti ang natural enemies sa paligid.",
+          "Mag-seed treatment bago magtanim.",
+          "Magsagawa ng crop rotation kasama ang pananim na hindi madamo o non-graminae crops.",
+          "Mag-spray ng magkahalong siling pula at detergent soap."
+        ]
+      },
+      {
+        "method": "Chemical Control",
+        "process": [
+          "Gumamit ng nirekomendang insecticide na hindi nakakasama sa beneficial insects."
+        ]
+      },
+      {
+        "method": "Biological Control",
+        "process": [
+          "Gumamit ng natural enemies tulad ng lady bird beetles o kulisap at biocides."
+        ]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa magulang: Gumamit ng natural enemies tulad ng kulisap, lacewing adults at larvae nito, at ilan pang parasitic wasps."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/corn-aphids/1.jpg",
+      "/images/pests/corn-aphids/2.jpg",
+      "/images/pests/corn-aphids/3.jpg",
+      "/images/pests/corn-aphids/4.jpg",
+      "/images/pests/corn-aphids/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Corn Earworm",
+    "scientificName": "Helicoverpa armigera",
+    "descriptions": [
+      "Ang bagong pisang uod ay may madilaw na katawan, maitim na ulo at paikot kung gumalaw.",
+      "Nagiging kulay berde o kayumanggi naman ito kapag lumalaki o tumatanda."
+    ],
+    "lifeCycle": {
+      "Itlog": "2-5 araw",
+      "Uod": "17-24 araw",
+      "Kukon": "8-11 araw",
+      "Magulang": "1-23 araw (lalaki); 5-28 araw (babae)"
+    },
+    "damages": [
+      "Ang sira sa pananim dulot ng peste ay nagbibigay ng magandang lugar sa pagdagsa ear fungi at maaaring masira ang kalidad ng ani.",
+      "Pinaiitim nito ang tuktok o dulong bahagi ng mais.",
+      "Kinakain ng maliit na uod ang buhok ng mais kaya't ito ay napuputol."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Iwasang magtanim ng ibang halamang maaaring pamahayan ng corn earworm gaya ng talong, bawang, okra, legumes, sibuyas, patatas at kamatis.",
+          "Synchronous planting - Magtanim kasabay ng ibang katabing nagtatanim.",
+          "Trapping - gumamit ng light traps o ilaw upang malaman kung may mga magulang na pesteng lumilipad."
+        ]
+      },
+      {
+        "method": "Biological Control",
+        "process": [
+          "Magpakawala ng Trichogramma chilonis kapag umabot sa 15% ang pinsala ng pesteng corn earworm.",
+          "Gumamit ng natural enemies tulad ng gagamba at coccinellid beetles."
+        ]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa itlog: Magpakawala ng parasitong Trichogramma.",
+          "Para sa magulang: Gumamit ng pheromone traps upang mamonitor ang pesteng lumilipad."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/corn-earworm/1.jpg",
+      "/images/pests/corn-earworm/2.jpg",
+      "/images/pests/corn-earworm/3.jpg",
+      "/images/pests/corn-earworm/4.jpg",
+      "/images/pests/corn-earworm/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Corn Plant Hopper",
+    "scientificName": "Perigrinus maidis",
+    "descriptions": [
+      "Malambot at madilaw ang bagong magulang o hanip.",
+      "Ang nimpa naman ay madilaw-dilaw at may mapulang mata. Wala itong pakpak ngunit may antennae."
+    ],
+    "lifeCycle": {
+      "Itlog": "4-10 araw",
+      "Nimpa": "16 araw",
+      "Magulang": "2-27 araw (lalaking may pakpak), 3-18 araw (walang pakpak); 7-45 araw (babaeng may pakpak), 8-39 araw (walang pakpak"
+    },
+    "damages": [
+      "Nagiging bansot ang pananim. Nagdadala ang peste ng virus na nagdudulot ng sakit na corn mosaic.",
+      "Nangingitim ang dahon dahil sa itim na amag dulot ng pagsipsip sa tanim.",
+      "Mas nakikita ang hopperburn sa dahon.",
+      "Maaaring hindi magkabutil ang mais dahil sa fermentation sanhi ng paglabas ng honey kapag sumisipsip ang nimpa sa dahon."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Gawin ang seed treatment bago magtanim.",
+          "I-fallow o pagpahingahin ang lupa sa pagtatanim ng 2-3 buwan.",
+          "Magbungkal pagkatapos ng ani upang mapatay ang natitirang peste.",
+          "Magsagawa ng crop rotation kasama ang cotton at root crops."
+        ]
+      },
+      {
+        "method": "Biological Control",
+        "process": [
+          "Gumamit ng gagamba, earwigs, mirid bugs, wasps at microbials."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/corn-plant-hopper/1.jpg",
+      "/images/pests/corn-plant-hopper/2.jpg",
+      "/images/pests/corn-plant-hopper/3.jpg",
+      "/images/pests/corn-plant-hopper/4.jpg",
+      "/images/pests/corn-plant-hopper/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Corn Seedling Maggot",
+    "scientificName": "Atherigona oryzae Malloch",
+    "descriptions": [
+      "Ang batang uod ay mamuti-muti o transparent.",
+      "Nagiging madilaw, mahaba at panipis ang unahan ng uod kapag ito'y tumatanda."
+    ],
+    "lifeCycle": {
+      "Itlog": "1-4 araw",
+      "Uod": "6-19 araw",
+      "Kukon": "5-12 araw",
+      "Magulang": "5-23 araw"
+    },
+    "damages": [
+      "Kinakain ng uod ang gitnang bahagi ng pananim hanggang sa baba ng stem.",
+      "Nagiging bansot, nadidilaw at nabubulok ang tissue ng pananim. Maaari itong ikamatay ng pananim."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Agahan ang pagtatanim.",
+          "Tanggalin ang ibang halaman na maaaring pamahayan ng peste."
+        ]
+      },
+      {
+        "method": "Chemical Control",
+        "process": ["Mag-seed treatment gamit ang nirekomendang insecticides."]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa itlog: Maglagay ng Trichogramma sp.",
+          "Para sa uod: Gumamit ng Opius sp. at Tetrastichus sp.",
+          "Para sa magulang: Maglagay ng gagamba tulad ng Araneus inustus (L. Koch) at Arigope catenulata (Doleschall)."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/corn-seedling-maggot/1.jpg",
+      "/images/pests/corn-seedling-maggot/2.jpg",
+      "/images/pests/corn-seedling-maggot/3.jpg",
+      "/images/pests/corn-seedling-maggot/4.jpg",
+      "/images/pests/corn-seedling-maggot/5.jpg"
+    ]
+  },
+
+  {
+    "pest": "Corn Semilooper",
+    "scientificName": "Chrysodeixes chalcites Esper",
+    "descriptions": [
+      "Ang katawan ng uod ay maberde at may mapuputing guhit.",
+      "Ang matandang uod ay may sukat na 38.64 millimeters.",
+      "Ang magulang na peste naman ay may pakpak na may golden bronze spots at naghuhugis Y."
+    ],
+    "lifeCycle": {
+      "Itlog": "3 araw",
+      "Uod": "14-28 araw",
+      "Kukon": "7 araw",
+      "Magulang": "9-14 araw"
+    },
+    "damages": [
+      "Kinakain nito ang soft tissue ng dahon at tinitira ang veins ng dahon.",
+      "Kung minsan naman, kinakain din ng uod ang buhok ng mais."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": [
+          "Magbungkal ng maisan upang matanggal ang mga damo na maaaring pagbahayan ng pesteng mandadangkal.",
+          "I-monitor kung may mga lumilipad na insekto o gamu-gamo.",
+          "Nakatutulong ang ibon, natural predators at parasites sa pagbaba ng populasyon ng uod.",
+          "Bawasan ang pag-spray laban sa ibang peste kung hindi kinakailangan.",
+          "Ang pagpili ng maisan, pag-alam ng kasaysayan ng maisan at pamamahala ng damo ay mahahalagang pamamaraan upang mabawasan ang pinsala ng corn semi-looper."
+        ]
+      },
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa uod: Ang pagpulot sa uod ay mainam na upang makontrol ang insekto."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/corn-semilooper/1.jpg",
+      "/images/pests/corn-semilooper/2.jfif",
+      "/images/pests/corn-semilooper/3.jfif",
+      "/images/pests/corn-semilooper/4.jfif",
+      "/images/pests/corn-semilooper/5.jfif"
+    ]
+  },
+
+  {
+    "pest": "True Armyworm",
+    "scientificName": "Mythimna separata",
+    "descriptions": [
+      "Ang ibabaw na bahagi ng uod ay maberde o kulay kayumanggi na may pagkalila samantalang ang ilalim naman ay maputla.",
+      "Ang itaas ng spiracles o mga maliliit na butas sa katawan ng uod ay maputla ang stripes."
+    ],
+    "lifeCycle": {
+      "Itlog": "3-4 araw",
+      "Uod": "14-25 araw",
+      "Kukon": "7-10 araw",
+      "Magulang": "5-12 araw"
+    },
+    "damages": [
+      "Kinakain nito ang whorled leaves.",
+      "Kapag marami ang peste, kita ang pagkagat ng peste sa gilid ng dahon.",
+      "Kung matindi ang pinsala, tanging ang gitnang bahagi ng dahon lamang ang natitira."
+    ],
+    "controls": [
+      {
+        "method": "Iba pang Control Measures",
+        "process": [
+          "Para sa uod: Ang mga bibe ay nakakatulong sa pagtanggal ng uod. Ang mga tachinid flies tulad ng Nemosturimia rufopicta at parasitic wasps tulad ng braconid wasps ay mga insektong nakakatulong sa pamamagitan ng pag-itlog sa katawan ng uod.",
+          "Para sa magulang: Gumamit ng panghuli gamit ang pheromones."
+        ]
+      }
+    ],
+    "images": [
+      "/images/pests/true-armyworm/1.jfif",
+      "/images/pests/true-armyworm/2.jfif",
+      "/images/pests/true-armyworm/3.jfif",
+      "/images/pests/true-armyworm/4.jfif",
+      "/images/pests/true-armyworm/5.jfif"
+    ]
+  },
+
+  {
+    "pest": "White Grub",
+    "scientificName": "Leucopholis irrorata Chev",
+    "descriptions": [
+      "Ang itlog ng salagubang ay maputi, mahaba at 0.5 millimeter ang diameter.",
+      "Ang bagong pisang uod ay maputi habang ang malaking uod ay madilaw-dilaw at maitim ang tiyan.",
+      "Kapag magulang na ang peste, ito ay makintab at maitim na may pagkapula."
+    ],
+    "lifeCycle": {
+      "Itlog": "10-16 araw",
+      "Uod": "252-336 araw"
+    },
+    "damages": [
+      "Ang tanim na mais ay maliit.",
+      "May irregular patches ng pagkadilaw o pagkalanta ng pananim sa maisan.",
+      "Ang maliliit na salagubang ay kinakain ang organic matter at bumababa sa ugat habang ito ay papalaki.",
+      "Kinakain din nito ang mga ugat.",
+      "Nagkakaroon ng grupo-grupong madidilaw na pananim sa maisan."
+    ],
+    "controls": [
+      {
+        "method": "Cultural Method",
+        "process": ["Tamang paghahanda ng kamang taniman."]
+      }
+    ],
+    "images": [
+      "/images/pests/white-grub/1.jfif",
+      "/images/pests/white-grub/2.jfif",
+      "/images/pests/white-grub/3.jfif",
+      "/images/pests/white-grub/4.jfif",
+      "/images/pests/white-grub/5.jfif"
+    ]
+  }
+]

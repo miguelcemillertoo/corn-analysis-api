@@ -1,0 +1,66 @@
+{% extends 'main.html' %} {% block content %}
+
+<div class="container">
+  <div class="header-container">
+    <span>CORN ANALYSIS</span>
+    <span>Tignan ang mga resulta:</span>
+  </div>
+
+  <span class="subheader-container">Peste</span>
+  <div class="prediction-container padding-content">
+    <div class="prediction-image-container">
+      <img src="/static/images/pests/{{data.image_filename}}" />
+    </div>
+    <div class="prediction-desc-slider-container">
+      <div class="prediction-desc-container">
+        <span id="name-js">{{data.prediction}}</span>
+        <span><i id="scientific-name-js"></i></span>
+        <div id="descriptions-js">
+        </div>
+      </div>
+      <div id='images-js' class="slider">
+        <!-- <div class="slider-image-container">
+          <img src="https://i0.wp.com/drecampbell.com/wp-content/uploads/2022/05/cornearworm.jpg" />
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <div id='images-mobile-js' class="slider mobile">
+    <!-- <div class="slider-image-container">
+      <img src="https://i0.wp.com/drecampbell.com/wp-content/uploads/2022/05/cornearworm.jpg" />
+    </div> -->
+  </div>
+
+  <span class="subheader-container">Siklo ng Buhay</span>
+  <div id="life-cycle-js" class="life-cycle-container padding-content">
+    <!-- <div class="life-cycle">
+      <span>Itlog</span>
+      <span>3-4 araw</span>
+    </div> -->
+  </div>
+
+  <span class="subheader-container">Pinsala</span>
+  <div id='damages-js' class="damages-container padding-content">
+    <!-- <span class="damage">Ang mga maliliit na uod ay kinakain ang mga dahon na nagdudulot ng maliliit na
+      butas. Ang malalaki naman ay gumagawa ng mas malalaking butas.</span> -->
+  </div>
+
+  <span class="subheader-container">Paraan ng Pagkontrol</span>
+  <div id="controls-js" class="controls-container padding-content">
+    <!-- <div class="control">
+      <span>Cultural Method</span>
+      <div class="control-process">
+        <span>Detasseling - tanggalin ang tassel ng 75% ng pananim na mais bago mahulog ang pollen. Sa kada apat na
+          hanay ng mais, tanggalan ng tassel ang tatlong hanay.</span>
+        <span>Synchronous planting - Magtanim kasabay ng ibang katabing nagtatanim.</span>
+      </div>
+    </div> -->
+  </div>
+
+
+
+</div>
+
+<script src="/static/js/pest-disease.js"></script>
+{% endblock content %}

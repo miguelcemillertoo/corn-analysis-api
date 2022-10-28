@@ -1,0 +1,33 @@
+{% extends 'main.html' %} {% block content %}
+
+<div class="container">
+    <div class="header-container">
+        <span>CORN ANALYSIS</span>
+        <span>Tignan ang mga resulta:</span>
+    </div>
+
+    <span class="subheader-container">Kulay ng Dahon</span>
+    <div class="prediction-container padding-content">
+        <div class="prediction-image-container">
+            <img src="/static/images/nutrients/{{data.image_filename}}" />
+        </div>
+        <div class="prediction-desc-slider-container">
+            <div class="prediction-desc-container">
+                <span id="leaf-color-js">#{{data.prediction}}</span>
+                <div id='nitrogens-js' class="leaf-description">
+                    <!-- <span>Maglagay ng maraming Nitrogen fertilizer.</span>
+                    <span>Kaagad maglagay ng fertilizer.</span> -->
+                </div>
+            </div>
+
+            <div id="image-js" class="leaf-image-container">
+                <!-- <img src="/static/images/assets/leaf-color-2.jpg"> -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/nutrient.js"></script>
+
+{% endblock content %}

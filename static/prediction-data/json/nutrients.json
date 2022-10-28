@@ -1,0 +1,31 @@
+[
+  {
+    "leafColor": "2",
+    "nitrogen": [
+      "Maglagay ng maraming Nitrogen fertilizer.",
+      "Kaagad maglagay ng fertilizer."
+    ],
+    "image": "/images/nutrients/2.jpg"
+  },
+
+  {
+    "leafColor": "3",
+    "nitrogen": [
+      "Maglagay ng katamtamang dami ng Nitrogen fertilizer.",
+      "Maglagay ng fertilizer sa lalong madaling panahon."
+    ],
+    "image": "/images/nutrients/3.jpg"
+  },
+
+  {
+    "leafColor": "4",
+    "nitrogen": ["Maglagay ng kaunting dami ng Nitrogen fertilizer."],
+    "image": "/images/nutrients/4.jpg"
+  },
+
+  {
+    "leafColor": "5",
+    "nitrogen": ["Hindi na kailangang maglagay ng Nitrogen fertilizer."],
+    "image": "/images/nutrients/5.jpg"
+  }
+]

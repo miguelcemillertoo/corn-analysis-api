@@ -1,0 +1,55 @@
+{% extends 'main.html' %} {% block content %}
+
+<div class="container">
+    <div class="header-container">
+        <span>CORN ANALYSIS</span>
+        <span>Tignan ang mga resulta:</span>
+    </div>
+
+    <span class="subheader-container">Sakit</span>
+    <div class="prediction-container padding-content">
+        <div class="prediction-image-container">
+            <img src="/static/images/diseases/{{data.image_filename}}" />
+        </div>
+        <div class="prediction-desc-slider-container">
+            <div class="prediction-desc-container">
+                <span>{{data.prediction}}</span>
+                <span><i id="scientific-name-js"></i></span>
+                <div id="descriptions-js">
+                </div>
+            </div>
+            <div id="images-js" class="slider">
+                <!-- <div class="slider-image-container">
+                    <img
+                        src="https://images.squarespace-cdn.com/content/v1/58d96874b3db2bf10b58f5aa/1504281950636-4BWYC77FRB4LQ5459177/Aspergillus_IowaState.jpg" />
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="images-mobile-js" class="slider mobile">
+        <!-- <div class="slider-image-container">
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/58d96874b3db2bf10b58f5aa/1504281950636-4BWYC77FRB4LQ5459177/Aspergillus_IowaState.jpg" />
+        </div> -->
+    </div>
+
+    <span class="subheader-container">Pinsala</span>
+    <div id="damages-js" class="damages-container padding-content">
+        <!-- <span class="damage">Ang mga maliliit na uod ay kinakain ang mga dahon na nagdudulot ng maliliit na
+            butas. Ang malalaki naman ay gumagawa ng mas malalaking butas.</span> -->
+    </div>
+
+    <span class="subheader-container">Paraan ng Pagkontrol</span>
+    <div class="controls-container padding-content">
+        <div class="control">
+            <div id="control-processes-js" class="control-process">
+                <!-- <span>Maayos na irigasyon at paglagay ng fertilizer o pataba.</span> -->
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/static/js/pest-disease.js"></script>
+{% endblock content %}
