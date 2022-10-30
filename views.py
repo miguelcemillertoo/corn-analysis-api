@@ -16,17 +16,8 @@ PestFields = {
 
 @app.route('/')
 def home():
-    # if request.method == 'POST':
-    #     name = 'atlantic_ocean'
-    #     image = save_image(request)
-
-    #     pest = Pests(name=name, image=image)
-
-    #     db.session.add(pest)
-    #     db.session.commit()
-        
-    #     return render_template("index.html")
-
+    print('Downloading Models..')
+    download_models()
     
     return render_template("index.html")
 
