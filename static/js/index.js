@@ -48,60 +48,14 @@ document.querySelector(".predict-js").addEventListener("click", function () {
   formData.append("category", data.category);
   formData.append("image", data.image);
 
-  let responeClone;
-  fetch("/submit", {
+    fetch("/submit", {
     method: "POST",
     body: formData,
-  })
-    .then(function (response) {
-      responeClone = response.clone();
-      return response.json();
-    })
-    .then(
-      function (data) {
-        if (data.prediction == "human") {
-          // unhide error container
-          let errorContainer = document.querySelector(".error-container");
-          errorContainer.innerHTML = "The image input is a human!";
-          errorContainer.classList.remove("hidden");
-
-          // hide spinner
-          document.querySelector(".spinner-container").classList.add("hidden");
-          document.querySelector(".predict-js").classList.remove("hidden");
-        } else if (data.prediction == "categorical") {
-          // unhide error container
-          let errorContainer = document.querySelector(".error-container");
-          errorContainer.innerHTML =
-            "The input image does not match the category!";
-          errorContainer.classList.remove("hidden");
-
-          // hide spinner
-          document.querySelector(".spinner-container").classList.add("hidden");
-          document.querySelector(".predict-js").classList.remove("hidden");
-        } else {
-          console.log(data);
-          window.location.href = `/p/${data.image_filename}/${data.stage}/${data.category}/${data.prediction}/${data.barangay}`;
-        }
-      },
-      function (rejectionReason) {
-        console.log(
-          "Error parsing JSON from response:",
-          rejectionReason,
-          responseClone
-        ); // 4
-        responseClone
-          .text() // 5
-          .then(function (bodyText) {
-            console.log(
-              "Received the following instead of valid JSON:",
-              bodyText
-            ); // 6
-          });
-      }
-    )
-    .catch((error) => {
-      console.log(error);
-    });
+  }).then((response) => {
+    let data = response.json();
+    console.log(data);
+  });
+  
 });
 
 /* Mobile Detection */
