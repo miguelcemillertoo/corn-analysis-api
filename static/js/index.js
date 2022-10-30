@@ -48,12 +48,11 @@ document.querySelector(".predict-js").addEventListener("click", function () {
   formData.append("category", data.category);
   formData.append("image", data.image);
 
-  fetch("https://corn-analysis-api-host-production.up.railway.app/submit", {
+  fetch("/submit", {
     method: "POST",
     body: formData,
   }).then((response) => {
-    let data = response.json();
-    console.log(data);
+    console.log(response);
   });
   
 });
