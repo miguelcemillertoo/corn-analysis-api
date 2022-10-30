@@ -55,7 +55,6 @@ document.querySelector(".predict-js").addEventListener("click", function () {
     let data = response.json();
     console.log(data);
   });
-});
   
 });
 
