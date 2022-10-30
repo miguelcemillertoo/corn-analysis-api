@@ -51,10 +51,36 @@ document.querySelector(".predict-js").addEventListener("click", function () {
   fetch("/submit", {
     method: "POST",
     body: formData,
-  }).then((response) => {
-    console.log(response);
-  });
-  
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.prediction == "human") {
+        // unhide error container
+        let errorContainer = document.querySelector(".error-container");
+        errorContainer.innerHTML = "The image input is a human!";
+        errorContainer.classList.remove("hidden");
+
+        // hide spinner
+        document.querySelector(".spinner-container").classList.add("hidden");
+        document.querySelector(".predict-js").classList.remove("hidden");
+      } else if (data.prediction == "categorical") {
+        // unhide error container
+        let errorContainer = document.querySelector(".error-container");
+        errorContainer.innerHTML =
+          "The input image does not match the category!";
+        errorContainer.classList.remove("hidden");
+
+        // hide spinner
+        document.querySelector(".spinner-container").classList.add("hidden");
+        document.querySelector(".predict-js").classList.remove("hidden");
+      } else {
+        console.log(data);
+        window.location.href = `/p/${data.image_filename}/${data.stage}/${data.category}/${data.prediction}/${data.barangay}`;
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 });
 
 /* Mobile Detection */
