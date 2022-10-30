@@ -57,7 +57,7 @@ document.querySelector(".predict-js").addEventListener("click", function () {
       if (data.prediction == "human") {
         // unhide error container
         let errorContainer = document.querySelector(".error-container");
-        errorContainer.innerHTML = "The image input is a human!";
+        errorContainer.innerHTML = "Ang laman ng larawan ay isang tao!";
         errorContainer.classList.remove("hidden");
 
         // hide spinner
@@ -66,8 +66,7 @@ document.querySelector(".predict-js").addEventListener("click", function () {
       } else if (data.prediction == "categorical") {
         // unhide error container
         let errorContainer = document.querySelector(".error-container");
-        errorContainer.innerHTML =
-          "The input image does not match the category!";
+        errorContainer.innerHTML = "Ang larawan ay hindi tugma sa kategorya!";
         errorContainer.classList.remove("hidden");
 
         // hide spinner
