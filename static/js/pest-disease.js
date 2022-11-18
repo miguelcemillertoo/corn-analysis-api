@@ -173,9 +173,7 @@ if (category_UI == "Peste") {
   fetch("/static/prediction-data/json/pests.json")
     .then((response) => response.json())
     .then((json) => {
-      const prediction = document.querySelector(
-        ".prediction-desc-container > span"
-      ).innerHTML;
+      const prediction = document.querySelector(".prediction-desc-container > span").innerHTML;
 
       let pestData = json.find((item) => item.pest == prediction);
 
@@ -244,9 +242,7 @@ if (category_UI == "Peste") {
   fetch("/static/prediction-data/json/diseases.json")
     .then((response) => response.json())
     .then((json) => {
-      const prediction = document.querySelector(
-        ".prediction-desc-container > span"
-      ).innerHTML;
+      const prediction = document.querySelector(".prediction-desc-container > span").innerHTML;
 
       let diseaseData = json.find((item) => item.disease == prediction);
 
@@ -292,3 +288,10 @@ if (category_UI == "Peste") {
       });
     });
 }
+
+// Back button clicked
+const back = document.querySelector(".back-js");
+
+back.addEventListener("click", () => {
+  window.location.href = "/";
+});

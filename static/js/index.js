@@ -7,12 +7,7 @@ let data = {
 };
 
 const dataValidation = () => {
-  if (
-    data.barangay == "" ||
-    data.stage == "" ||
-    data.category == "" ||
-    document.querySelector(".image-container").classList.contains("hidden")
-  ) {
+  if (data.barangay == "" || data.stage == "" || data.category == "" || document.querySelector(".image-container").classList.contains("hidden")) {
     // Disable Primary Button
     document.querySelector(".predict-js").classList.add("disabled");
     return false;
@@ -86,9 +81,7 @@ document.querySelector(".predict-js").addEventListener("click", function () {
 const cameraInput = document.querySelector("#camera-input-js");
 const webcamInput = document.querySelector("#webcam-input-js");
 
-const webcamVideoCaptureContainer = document.querySelector(
-  ".webcam-video-capture-container"
-);
+const webcamVideoCaptureContainer = document.querySelector(".webcam-video-capture-container");
 
 const webcamVideoContainer = document.querySelector(".webcam-video-container");
 const webcamCapture = document.querySelector(".webcam-capture");
@@ -98,11 +91,7 @@ const canvasContainer = document.querySelector(".canvas-container");
 const imageContainer = document.querySelector(".image-container");
 const imageContainerImg = document.querySelector(".image-container > img");
 
-if (
-  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  )
-) {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   // Mobile
   cameraInput.classList.remove("hidden");
   webcamInput.classList.add("hidden");
@@ -147,15 +136,7 @@ webcamCapture.addEventListener("click", async function () {
   // show image container
   imageContainer.classList.remove("hidden");
 
-  canvasContainer
-    .getContext("2d")
-    .drawImage(
-      webcamVideoContainer,
-      0,
-      0,
-      canvasContainer.width,
-      canvasContainer.height
-    );
+  canvasContainer.getContext("2d").drawImage(webcamVideoContainer, 0, 0, canvasContainer.width, canvasContainer.height);
 
   // get dataURL
   let dataURL = canvasContainer.toDataURL("image/jpeg");
@@ -233,13 +214,9 @@ const hiddenElements = document.querySelectorAll(".hidden-section");
 hiddenElements.forEach((el) => observer.observe(el));
 
 /* Add Uploaded Image */
-document
-  .querySelector("#gallery-input")
-  .addEventListener("change", previewImage);
+document.querySelector("#gallery-input").addEventListener("change", previewImage);
 
-document
-  .querySelector("#camera-input")
-  .addEventListener("change", previewImage);
+document.querySelector("#camera-input").addEventListener("change", previewImage);
 
 function previewImage() {
   // hide webcam video capture container
@@ -370,3 +347,10 @@ window.onclick = function (event) {
     modalContainer.classList.add("hidden");
   }
 };
+
+// Refresh clicked
+const refreshContainer = document.querySelector(".refresh-container");
+
+refreshContainer.addEventListener("click", () => {
+  location.reload();
+});

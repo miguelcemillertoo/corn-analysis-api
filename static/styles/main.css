@@ -90,6 +90,40 @@ body {
   width: 100%;
 }
 
+/* Refresh Container */
+.refresh-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+}
+
+.refresh-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  background-color: var(--icon-bg);
+  box-shadow: var(--border);
+  cursor: pointer;
+
+  transition: box-shadow 0.2s ease-out;
+}
+
+.refresh-image-container > img {
+  margin-left: -2px;
+}
+
+.refresh-image-container:hover {
+  box-shadow: var(--border-hover);
+}
+
 /* Header Container */
 .header-container > span:first-child {
   font-size: var(--font-size-large);
@@ -185,6 +219,8 @@ select {
   background-size: 12px;
   background-position: right;
   background-origin: content-box;
+
+  transition: box-shadow 0.2s ease-out;
 }
 
 select:hover {
@@ -220,6 +256,8 @@ select > option {
   justify-content: center;
   cursor: pointer;
   padding-top: 6px;
+
+  transition: box-shadow 0.2s ease-out;
 }
 
 .stage-icon-container:last-child {
@@ -260,6 +298,8 @@ select > option {
   justify-content: center;
   cursor: pointer;
   position: relative;
+
+  transition: box-shadow 0.2s ease-out;
 }
 
 .category-icon-container:last-child {
@@ -357,6 +397,8 @@ select > option {
   border-radius: 45px;
 
   cursor: pointer;
+
+  transition: box-shadow 0.2s ease-out;
 }
 
 .source-icon-container:last-child {
@@ -837,7 +879,8 @@ span {
   transition-delay: 300ms;
 }
 
-.primary-btn {
+.primary-btn,
+.refresh-container {
   transition-delay: 300ms;
 }
 
