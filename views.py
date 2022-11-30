@@ -77,3 +77,10 @@ def p(image_filename, stage, category, prediction, barangay):
         return render_template('disease.html', data=data)
     elif category == 'Nutrient':
         return render_template('nutrient.html', data=data)
+
+
+@app.route('/submit-sample', methods=['GET', 'POST'])
+def submit_sample():
+    return {
+        'it worked!': 'haha!'
+    }
