@@ -174,6 +174,7 @@ def face_detector(image):
     img = cv2.imread(img_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray)
+    print('Number of faces:', len(faces))
     return len(faces) > 0
 
 
@@ -181,6 +182,25 @@ def clear_temp():
     files = glob(join(dirname(realpath(__file__)), 'static/images/temp/*'))
     for f in files:
         os.remove(f)
+
+def clear_images():
+    temp_files = glob(join(dirname(realpath(__file__)), 'static/images/temp/*'))
+    pest_files = glob(join(dirname(realpath(__file__)), 'static/images/pests/*'))
+    disease_files = glob(join(dirname(realpath(__file__)), 'static/images/diseases/*'))
+    nutrient_files = glob(join(dirname(realpath(__file__)), 'static/images/nutrients/*'))
+    
+    for f in temp_files:
+        os.remove(f)
+
+    for f in pest_files:
+        os.remove(f)
+
+    for f in disease_files:
+        os.remove(f)
+        
+    for f in nutrient_files:
+        os.remove(f)
+        
 
 
 # gdrive models

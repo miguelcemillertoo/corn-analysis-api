@@ -61,6 +61,49 @@ def submit():
                 'prediction': prediction
                 }
 
+@app.route('/submit-api', methods = ['POST'])
+def submit_api():
+    if request.method == 'POST':
+        barangay = request.form['barangay']
+        stage = request.form['stage']
+        category = request.form['category']
+        image = request.files['image']
+        
+        # check if image is human
+        is_human = face_detector(image)
+
+        # check if correct category -> image
+        is_category_correct = predict_category(image, category)
+
+        # clear temp folder
+        clear_temp()
+
+        if is_human: 
+            return {'prediction': 'human'}
+        elif not is_category_correct:
+            return {'prediction': 'categorical'}
+        else: 
+            # Save image
+            image_filename = save_image(image, category)
+
+            # Prediction (Pests and Diseases)
+            if category == 'Pest' or category == 'Disease':
+                prediction = predict_image(category, image_filename)
+            # Delta-E (Nutrients)
+            else:
+                prediction = delta_e(image_filename)
+
+            # clear images folders
+            clear_images()
+            
+            return {
+                'barangay': barangay,
+                'stage': stage,
+                'category': category,
+                'image_filename': image_filename, 
+                'prediction': prediction
+                }
+
 @app.route('/p/<image_filename>/<stage>/<category>/<prediction>/<barangay>', methods=['GET'])
 def p(image_filename, stage, category, prediction, barangay):
     data = {
